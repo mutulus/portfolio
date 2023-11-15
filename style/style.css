@@ -3,17 +3,21 @@
     
     margin: 0;
     text-align: justify;
+    font-family: 'Josefin Sans', sans-serif;
+
 
 }
 
 body {
     display: grid;
     grid-template-rows: auto 1fr 1fr auto;
+    grid-row-gap: 150px;
     scroll-behavior: smooth;
     height: 100vh;
     background-color: burlywood;
 
 }
+
 
 footer {
     background-color: brown;
@@ -45,11 +49,11 @@ a {
     color: brown;
 }
 
-.container {
+.titre {
     align-self: center;
 }
 
-.container h1 {
+.titre h1 {
     font-size: 100px;
 
 }
@@ -80,6 +84,7 @@ a {
     padding-top: 50px;
 }
 .competence {
+
     display: grid;
     justify-content: center;
 
@@ -89,5 +94,9 @@ a {
     padding-top: 50px;
 }
 .list-competence{
+    list-style: none;
 
+}
+.list-competence li{
+    padding: 6px;
 }
