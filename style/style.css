@@ -1,5 +1,6 @@
 
 * {
+    
     margin: 0;
     text-align: justify;
 
@@ -7,19 +8,20 @@
 
 body {
     display: grid;
-    grid-template-rows: auto 1fr auto;
+    grid-template-rows: auto 1fr 1fr auto;
     scroll-behavior: smooth;
     height: 100vh;
     background-color: burlywood;
 
 }
-footer{
+
+footer {
     background-color: brown;
     height: 150px;
 }
 
 
-ul {
+.menu {
     display: flex;
     list-style: none;
     justify-content: center;
@@ -27,7 +29,7 @@ ul {
 
 }
 
-li {
+.menu li {
     color: brown;
     text-align: center;
     padding: 18px;
@@ -35,12 +37,57 @@ li {
 
 h1 {
     text-align: center;
+
 }
 
 a {
     text-decoration: none;
     color: brown;
 }
-.container{
+
+.container {
+    align-self: center;
+}
+
+.container h1 {
+    font-size: 100px;
+
+}
+
+.sous-texte {
+    text-align: center;
+    font-size: 26px;
+    padding-top: 8px;
+    font-family: 'Satisfy', cursive;
+}
+.icons{
+    justify-content: center;
+    display: flex;
+}
+.icons i{
+    font-size: 25px;
+    padding: 10px;
+}
+
+.presentation {
+    display: grid;
+    justify-content: center;
+
+}
+
+.presentation p {
+    font-size: 18px ;
+    padding-top: 50px;
+}
+.competence {
+    display: grid;
+    justify-content: center;
+
+}
+.competence p{
+    font-size: 18px ;
+    padding-top: 50px;
+}
+.list-competence{
 
 }
