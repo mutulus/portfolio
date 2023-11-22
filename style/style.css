@@ -41,12 +41,13 @@ footer {
 
 h1 {
     text-align: center;
+    color: #4CAF50;
 
 }
 
 a {
     text-decoration: none;
-    color: brown;
+    color: #117e37;
 }
 
 .titre {
@@ -99,4 +100,25 @@ a {
 }
 .list-competence li{
     padding: 6px;
+}
+
+
+#cv h2{
+    text-align: center;
+}
+
+.cv-lien{
+   padding-top: 50px;
+}
+.passions h2{
+   text-align: center;
+}
+.projets h2{
+    text-align: center;
+}
+.projets ul{
+    padding-top: 100px;
+}
+.projets li{
+    text-align: center;
 }

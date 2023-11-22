@@ -31,23 +31,40 @@ include 'partials/nav.html';
 
         <i class="fa-solid fa-terminal fa-bounce" style="color: #117e37;"></i>
     </div>
-    <p id="text-presentation">Je m'appelle Arturs Mednis, j'ai 20 ans et suis actuellement étuidant en informatique et plus précisemment en développement.
+    <p id="text-presentation">Je m'appelle Arturs Mednis, j'ai 20 ans et suis actuellement étudiant en informatique et plus précisemment en développement.
     <br> Je suis passionné d'informatique depuis mon plus jeune âge et m'y suis orienté dès le lycée.
     </p>
 </div>
     <div class="competence">
         <h2 id="competences">Mes compétences</h2>
-        <ul class="list-competence">
+        <br class="list-competence">
+        <ul>
             <li>HTML/CSS</li>
             <li>PHP</li>
+            <li>Modèle MVC</li>
             <li>Symfony</li>
+            <li>GitHub</li>
             <li>Conception de base de données</li>
-        </ul>
-    </div>
 
-    <div id="cv">
-        <h2> Mon CV </h2>
+
+        </ul>
+
+        <a class="cv-lien" href="image/CV_Mednis_Arturs.pdf">Mon CV</a>
+
     </div>
+<div class="passions">
+    <h2 id="passions">Mes passions</h2>
+    <p>Voyager, découvrir.</p>
+</div>
+<div class="projets">
+    <h2>Les différents projets réalisés</h2>
+    <ul>
+        <li>Développement d'un programme de cryptage RSA en python</li>
+        <li>Système de bibliotheque, développement Back End en php avec base de données de a à z</li>
+        <li>Développement d'une API</li>
+    </ul>
+</div>
+
 
 
 <?php
