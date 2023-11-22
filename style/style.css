@@ -84,11 +84,8 @@ a {
     font-size: 18px ;
     padding-top: 50px;
 }
-.competence {
-
-    display: grid;
-    justify-content: center;
-
+.competence h2{
+    text-align: center;
 }
 .competence p{
     font-size: 18px ;
@@ -121,4 +118,31 @@ a {
 }
 .projets li{
     text-align: center;
+}
+
+
+table.competences {
+
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+}
+table.competences td, table.competences th {
+    padding: 3px 0px;
+}
+table.competences tbody td {
+    font-size: 20px;
+}
+table.competences tfoot td {
+    font-size: 14px;
+}
+table.competences tfoot .links {
+    text-align: right;
+}
+table.competences tfoot .links a{
+    display: inline-block;
+    background: #1C6EA4;
+    color: #FFFFFF;
+    padding: 2px 8px;
+    border-radius: 5px;
 }
