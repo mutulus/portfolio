@@ -32,7 +32,8 @@ include 'partials/nav.html';
         <i class="fa-solid fa-terminal fa-bounce" style="color: #117e37;"></i>
     </div>
     <p id="text-presentation">Je m'appelle Arturs Mednis, j'ai 20 ans et suis actuellement étudiant en informatique et plus précisément dans le développement.
-    <br> Je suis passionné d'informatique depuis mon plus jeune âge et m'y suis orienté dès le lycée.
+    <br> Je suis passionné d'informatique depuis mon plus jeune âge et m'y suis orienté dès le lycée. Mon objectif est de travailler dans <br>le domaine de la
+        cybersécurité à l'issue de mes études.
     </p>
 </div>
     <div id="competence">
