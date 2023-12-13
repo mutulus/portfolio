@@ -93,7 +93,7 @@ a {
     padding-top: 50px;
 }
 
-.competence{
+#competence{
     display: grid;
     grid-template-rows: 80px 400px 80px;
     grid-template-columns: repeat(6,minmax(15px,300px));
@@ -103,12 +103,12 @@ a {
     display: grid;
     grid-template-rows:100px 50px 250px;
 }
-.competence h2 {
+#competence h2 {
     text-align: center;
     grid-row: 1/2;
     grid-column: 1/7;
 }
-.competence p{
+#competence p{
     font-size: 18px ;
     padding-top: 50px;
 }
@@ -130,7 +130,7 @@ a {
     align-self: end;
     font-size: 25px;
 }
-.passions h2{
+#passions h2{
    text-align: center;
 }
 .projets h2{
@@ -144,7 +144,7 @@ a {
 
 
 
-.passions{
+#passions{
     margin: auto;
     width: 90%;
     display: grid;
@@ -153,7 +153,7 @@ a {
     grid-column-gap: 10px;
 
 }
-.passions h2{
+#passions h2{
     grid-row: 0/1;
     grid-column: 1/4;
 }
@@ -162,7 +162,7 @@ a {
     width:100%;
     height: 100%;
 }
-.passions h3{
+#passions h3{
     align-self: center;
     justify-self: center;
 }

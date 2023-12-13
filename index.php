@@ -35,19 +35,25 @@ include 'partials/nav.html';
     <br> Je suis passionné d'informatique depuis mon plus jeune âge et m'y suis orienté dès le lycée.
     </p>
 </div>
-    <div class="competence">
-        <h2 id="competences">Mes compétences</h2>
-        <?php
-            // Faire une boucle pour afficher les cards
-
-        ?>
+    <div id="competence">
+        <h2 class='competences'>Mes compétences</h2>
+        <?php include './partials/card.html'?>
         <div id="cv-div">
         <a class="cv-lien" href="image/CV_Mednis_Arturs.pdf">Mon CV</a>
         </div>
 
     </div>
-<div class="passions">
-    <h2 id="passions">Mes passions</h2>
+
+<div id="projets">
+    <h2>Les différents projets réalisés</h2>
+    <ul>
+        <li>Développement d'un programme de cryptage RSA en python</li>
+        <li>Système de bibliotheque, développement Back End en php avec base de données de a à z</li>
+        <li>Développement d'une API</li>
+    </ul>
+</div>
+<div id="passions">
+    <h2 class="passions">Mes passions</h2>
     <img class="images-passions" src="/image/basket.jpg" alt="image-basketball">
     <img class="images-passions" src="/image/avion.jpg" alt="image-avion">
     <img class="images-passions" src="/image/gaming.png" alt="image-gaming">
@@ -56,14 +62,6 @@ include 'partials/nav.html';
     <h3>Jouer aux jeux vidéos</h3>
 
 
-</div>
-<div class="projets">
-    <h2>Les différents projets réalisés</h2>
-    <ul>
-        <li>Développement d'un programme de cryptage RSA en python</li>
-        <li>Système de bibliotheque, développement Back End en php avec base de données de a à z</li>
-        <li>Développement d'une API</li>
-    </ul>
 </div>
 
 
