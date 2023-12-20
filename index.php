@@ -49,7 +49,7 @@ include 'partials/nav.html';
     <h2>Les différents projets réalisés</h2>
     <ul>
         <li>Développement d'un programme de cryptage RSA en python</li>
-        <li>Système de bibliotheque, développement Back End en php avec base de données de a à z</li>
+        <li>Système de bibliotheque, développement Back End en php avec gestion de base de données</li>
         <li>Développement d'une API</li>
     </ul>
 </div>
