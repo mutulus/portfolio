@@ -38,23 +38,26 @@ include 'partials/nav.html';
 </div>
     <div id="competence">
         <h2 class='competences'>Mes compétences</h2>
-        <?php include './partials/card.html'?>
+        <?php include './partials/card-competences.html' ?>
         <div id="cv-div">
         <a class="cv-lien" href="image/CV_Mednis_Arturs.pdf">Mon CV</a>
         </div>
 
     </div>
-
 <div id="projets">
     <h2>Les différents projets réalisés</h2>
+
     <ul>
         <li>Développement d'un programme de cryptage RSA en python</li>
+        <li>Sécurisation et gestion des autorisations</li>
+        <li>Maintenance de serveur</li>
         <li>Système de bibliotheque, développement Back End en php avec gestion de base de données</li>
         <li>Développement d'une API</li>
     </ul>
 </div>
 <div id="passions">
     <h2 class="passions">Mes passions</h2>
+
     <img class="images-passions" src="/image/basket.jpg" alt="image-basketball">
     <img class="images-passions" src="/image/avion.jpg" alt="image-avion">
     <img class="images-passions" src="/image/gaming.png" alt="image-gaming">
