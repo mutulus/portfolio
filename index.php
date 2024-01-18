@@ -61,7 +61,7 @@ include 'partials/nav.html';
     <img class="images-passions" src="/image/basket.jpg" alt="image-basketball">
     <img class="images-passions" src="/image/avion.jpg" alt="image-avion">
     <img class="images-passions" src="/image/gaming.png" alt="image-gaming">
-    <h3>Jouer au basket</h3>
+    <h3>Jouer au basket </h3>
     <h3>Voyager et découvrir</h3>
     <h3>Jouer aux jeux vidéos</h3>
 
