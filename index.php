@@ -13,8 +13,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;400&family=Satisfy&display=swap" rel="stylesheet">
-
-
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
     <title>Arturs</title>
 </head>
 <body>
@@ -22,26 +22,24 @@
 include 'partials/nav.html';
 ?>
 
-<div class="titre">
-    <h1>Arturs Mednis</h1>
-    <p class="sous-texte">BTS SIO - SLAM 2ème année Développeur Back-End</p>
-</div>
-<div class="presentation">
-    <div class="icons">
-
-        <i class="fa-solid fa-terminal fa-bounce" style="color: #117e37;"></i>
-    </div>
-    <p id="text-presentation">Je m'appelle Arturs Mednis, j'ai 20 ans et suis actuellement étudiant en informatique et plus précisément dans le développement.
-    <br> Je suis passionné d'informatique depuis mon plus jeune âge et m'y suis orienté dès le lycée. Mon objectif est de travailler dans <br>le domaine de la
-        cybersécurité à l'issue de mes études.
-    </p>
-</div>
+<!--<div class="titre">-->
+<!--    <h1 class="">Arturs Mednis</h1>-->
+<!--    <p class="sous-texte">BTS SIO - SLAM 2ème année Développeur Back-End</p>-->
+<!--</div>-->
+<!--<div class="presentation">-->
+<!--    <div class="icons">-->
+<!---->
+<!--        <i class="fa-solid fa-terminal fa-bounce" style="color: #117e37;"></i>-->
+<!--    </div>-->
+<!--    <p id="text-presentation">Je m'appelle Arturs Mednis, j'ai 20 ans et suis actuellement étudiant en informatique et plus précisément dans le développement.-->
+<!--    <br> Je suis passionné d'informatique depuis mon plus jeune âge et m'y suis orienté dès le lycée. Mon objectif est de travailler dans <br>le domaine de la-->
+<!--        cybersécurité à l'issue de mes études.-->
+<!--    </p>-->
+<!--</div>-->
     <div id="competence">
-        <h2 class='competences'>Mes compétences</h2>
+
         <?php include './partials/card-competences.html' ?>
-        <div id="cv-div">
-        <a class="cv-lien" href="image/CV_Mednis_Arturs.pdf">Mon CV</a>
-        </div>
+
 
     </div>
 <div id="projets">
