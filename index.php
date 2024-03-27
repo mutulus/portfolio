@@ -37,14 +37,11 @@ include 'partials/nav.html';
 <!--    </p>-->
 <!--</div>-->
     <div id="competence">
-
         <?php include './partials/card-competences.html' ?>
-
-
     </div>
-<div id="projets">
-    <h2>Les différents projets réalisés</h2>
-
+<div class="container">
+    <h2 class="text-center mt-24 text-2xl">Les différents projets réalisés</h2>
+    <?php include './partials/card-projets.html'?>
     <ul>
         <li>Développement d'un programme de cryptage RSA en python</li>
         <li>Sécurisation et gestion des autorisations</li>
@@ -55,7 +52,6 @@ include 'partials/nav.html';
 </div>
 <div id="passions">
     <h2 class="passions">Mes passions</h2>
-
     <img class="images-passions" src="/image/basket.jpg" alt="image-basketball">
     <img class="images-passions" src="/image/avion.jpg" alt="image-avion">
     <img class="images-passions" src="/image/gaming.png" alt="image-gaming">
