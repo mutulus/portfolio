@@ -40,7 +40,7 @@ include 'partials/nav.html';
         <?php include './partials/card-competences.html' ?>
     </div>
 <div class="container">
-    <h2 class="text-center mt-24 text-2xl">Les différents projets réalisés</h2>
+    <h2 class="text-center text-2xl mt-24 text-center underline">Les différents projets réalisés</h2>
     <?php include './partials/card-projets.html'?>
     <ul>
         <li>Développement d'un programme de cryptage RSA en python</li>
