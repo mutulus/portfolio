@@ -39,7 +39,7 @@ include 'partials/nav.html';
     <div id="competence">
         <?php include './partials/card-competences.html' ?>
     </div>
-<div class="container">
+<div class="container mx-auto">
     <h2 class="text-center text-2xl mt-24 text-center underline">Les différents projets réalisés</h2>
     <?php include './partials/card-projets.html'?>
     <ul>
@@ -50,14 +50,18 @@ include 'partials/nav.html';
         <li>Développement d'une API</li>
     </ul>
 </div>
-<div id="passions">
-    <h2 class="passions">Mes passions</h2>
-    <img class="images-passions" src="/image/basket.jpg" alt="image-basketball">
-    <img class="images-passions" src="/image/avion.jpg" alt="image-avion">
-    <img class="images-passions" src="/image/gaming.png" alt="image-gaming">
-    <h3>Jouer au basket </h3>
-    <h3>Voyager et découvrir</h3>
-    <h3>Jouer aux jeux vidéos</h3>
+<div class="container mx-auto">
+
+    <?php
+        include 'partials/card-passions.html';
+    ?>
+<!--    <h2 class="passions">Mes passions</h2>-->
+<!--    <img class="images-passions" src="/image/basket.jpg" alt="image-basketball">-->
+<!--    <img class="images-passions" src="/image/avion.jpg" alt="image-avion">-->
+<!--    <img class="images-passions" src="/image/gaming.png" alt="image-gaming">-->
+<!--    <h3>Jouer au basket </h3>-->
+<!--    <h3>Voyager et découvrir</h3>-->
+<!--    <h3>Jouer aux jeux vidéos</h3>-->
 
 
 </div>
